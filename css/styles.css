@@ -3,19 +3,52 @@
    font-family: 'Open Sans', sans-serif;
 }
 
+:root {
+   --bg-dark: #242424;
+   --color-primary: #4D41C0;
+   --white-letter: #fff;
+}
+
+h1, h2, h3, h4 {
+   margin: 0;
+}
+
+nav h1{
+   font-size: 40px;
+   font-weight: 500;
+}
+
 nav {
    display: flex;
    align-items: center;
-   justify-content: space-around;
+   justify-content: space-between;
+}
+
+nav a {
+   font-size: 20px;
+   font-weight: 200;
+}
+
+nav div img {
+   width: 45px;
+   padding-right: 10px;
+}
+
+nav div {
+   display: flex;
+   align-items: center;
 }
 
 html, body {
-   background-color: #242424;
+   background-color: var(--bg-dark);
 }
 
 header {
-   background-color: #4D41C0;
-   color: #fff;
+   background-color: var(--color-primary);
+   color: var(--white-letter);
+   height: 65px;
+   display: flex;
+   align-items: center;
 }
 
 a, a:hover {
