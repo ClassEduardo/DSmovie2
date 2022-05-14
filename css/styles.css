@@ -75,7 +75,7 @@ a, a:hover {
 }
 
 #dsmovie-card-list {
-   padding: 110px 0;
+   padding: 110px 10px;
 }
 
 .dsmovie-card-description, .dsmovie-form-description {
@@ -89,7 +89,7 @@ a, a:hover {
 }
 
 .dsmovie-card-description {
-   min-height: 225px;
+   min-height: 260px;
 }
 
 .dsmovie-card-description h3, .dsmovie-form-description h3 {
