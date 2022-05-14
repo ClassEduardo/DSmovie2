@@ -110,3 +110,8 @@ a, a:hover {
    cursor: pointer;
    border: 1px solid black;
 }
+
+.dsmovie-form-container {
+   padding: 110px 0;
+   width: 55rem;
+}
