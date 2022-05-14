@@ -8,7 +8,10 @@
    --color-primary: #4D41C0;
    --white-letter: #fff;
    --bg-card: #242424;
+   --light-grey-letter: #818181;
+   --number-rating: #FFBB3A;
 }
+
 
 h1, h2, h3, h4 {
    margin: 0;
@@ -85,6 +88,10 @@ a, a:hover {
    text-align: center;
 }
 
+.dsmovie-card-description {
+   min-height: 225px;
+}
+
 .dsmovie-card-description h3, .dsmovie-form-description h3 {
    color: var(--white-letter);
    margin-bottom: 15px;
@@ -122,7 +129,7 @@ a, a:hover {
 }
 
 label {
-   color: #818181;
+   color: var(--light-grey-letter);
    width: 440px;
    text-align: left;
    font-size: 15px;
@@ -141,3 +148,22 @@ form div {
    background-color: var(--bg-card);
    border-radius: 10px;
 }
+
+.dsmovie-card-description-bottom img {
+   width: 22px;
+}
+
+.dsmovie-card-description-bottom h4 {
+   color: var(--number-rating);
+   font-weight: 500;
+   font-size: 20px;
+   margin: 0 0 5px 0;
+}
+
+.dsmovie-card-description-bottom p {
+   color: var(--light-grey-letter);
+   font-size: 18px;
+   font-weight: 400;
+   margin: 7px 0 10px 0;
+}
+
