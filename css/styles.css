@@ -106,6 +106,7 @@ a, a:hover {
 
 .dsmovie-btn:hover {
    color: var(--white-letter);
-   transform: scale(1.05);
+   transform: scale(1.04, 1.09);
    cursor: pointer;
+   border: 1px solid black;
 }
