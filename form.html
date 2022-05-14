@@ -29,12 +29,34 @@
 
          <div class="container dsmovie-form-container">
 
-            <div class="dsmovie-card">
+            <div class=" dsmovie-card-form">
                <img src="https://www.themoviedb.org/t/p/w500_and_h282_face/xLWYkefC1wjRlnLKrKvaH6LrfQM.jpg"
                   alt="Moon Knight">
-               <div class="dsmovie-card-description">
+               <div class="dsmovie-form-description">
                   <h3>Cavaleiro da Lua</h3>
-                  <a class="dsmovie-btn" href="index.html">Cancelar</a>
+
+                  <form action="">
+                     <div class="form-group">
+                        <label for="email">Informe seu email</label>
+                        <input class="form-control input-email" type="text" name="email" id="email" placeholder="name@gmail.com">
+                     </div>
+
+                     <div class="form-group">
+                        <label for="score">Informe sua avaliação</label>
+                        <select class="form-control" name="score" id="score">
+                           <option value="1">1</option>
+                           <option value="2">2</option>
+                           <option value="3">3</option>
+                           <option value="4">4</option>
+                           <option value="5">5</option>
+                        </select>
+                     </div>
+                     <div>
+                        <button class="dsmovie-btn-form" type="submit">Salvar</button>
+                        <a class="dsmovie-btn" href="index.html">Cancelar</a>
+                     </div>
+                  </form>
+
                </div>
             </div>
 

@@ -66,7 +66,7 @@ a, a:hover {
    border-radius: 10px;
 }
 
-.dsmovie-card img {
+.dsmovie-card img, .dsmovie-card-form img {
    width: 100%;
    border-radius: 10px 10px 0 0;
 }
@@ -75,7 +75,7 @@ a, a:hover {
    padding: 110px 0;
 }
 
-.dsmovie-card-description {
+.dsmovie-card-description, .dsmovie-form-description {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -85,17 +85,17 @@ a, a:hover {
    text-align: center;
 }
 
-.dsmovie-card-description h3 {
+.dsmovie-card-description h3, .dsmovie-form-description h3 {
    color: var(--white-letter);
-   margin-bottom: 30px;
+   margin-bottom: 15px;
    font-weight: 400;
 }
 
-.dsmovie-btn {
+.dsmovie-btn, .dsmovie-btn-form {
    color: var(--white-letter);
    background-color: var(--color-primary);
    width: 170px;
-   height: 45px;
+   height: 50px;
    font-size: 20px;
    font-weight: 500;
    border-radius: 4px;
@@ -104,7 +104,12 @@ a, a:hover {
    justify-content: center;
 }
 
-.dsmovie-btn:hover {
+.dsmovie-btn-form {
+   border: 0;
+   margin-bottom: 20px;
+}
+
+.dsmovie-btn:hover, .dsmovie-btn-form:hover {
    color: var(--white-letter);
    transform: scale(1.04, 1.09);
    cursor: pointer;
@@ -113,5 +118,26 @@ a, a:hover {
 
 .dsmovie-form-container {
    padding: 110px 0;
-   width: 55rem;
+   width: 45rem;
+}
+
+label {
+   color: #818181;
+   width: 440px;
+   text-align: left;
+   font-size: 15px;
+}
+
+form div {
+   margin-bottom: 25px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-width: 441px;
+}
+
+.dsmovie-card-form {
+   min-height: 770px;
+   background-color: var(--bg-card);
+   border-radius: 10px;
 }
